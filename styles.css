@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: Quicksand;
+  background-image: url("8ball2.png");
+  background-size: 80px 80px;
+
+}
+
+.title {
+  width: 1000px;
+  margin-left: 230px;
+  margin-top: 80px;
+  font-size: 50px;
+}
+
+.choices {
+  margin-top: 100px;
+  font-size: 30px;
+  margin-left: 230px;
+}
+
+.choices2 {
+  margin-top: 100px;
+  font-size: 30px;
+  margin-left: 230px;
+  opacity: 100;
+  color: black;
+  animation-name: fadeInOut;
+  animation-duration: 15s;
+}
+
+.choices3 {
+  margin-top: 50px;
+  font-size: 30px;
+  margin-left: 500px;
+}
+
+
+.submit {
+  font-family: Quicksand;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 230px;
+}
+
+#flip {
+  font-family: Quicksand;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#quantity {
+  font-family: Quicksand;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+}
+
+#result {
+  margin-left: 500px;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+  
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
